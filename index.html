@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentine's Day, My Love!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffebee;
+      color: #c62828;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #c62828;
+      color: #fff;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    h2 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .photo-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .photo-gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #c62828;
+    }
+    .love-notes {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .love-notes h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .love-notes ul {
+      list-style: none;
+      padding: 0;
+    }
+    .love-notes li {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .music-player {
+      margin: 20px 0;
+    }
+    .surprise-button {
+      background-color: #c62828;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .surprise-button:hover {
+      background-color: #8e0000;
+    }
+    footer {
+      background-color: #c62828;
+      color: #fff;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Valentine's Day, [Her Name]!</h1>
+    <h2>You mean the world to me. 💕</h2>
+  </header>
+
+  <div class="container">
+    <!-- Our Story Section -->
+    <section>
+      <h2>Our Story</h2>
+      <p>From the moment we met, my life changed for the better. Here are some of my favorite memories with you:</p>
+      <div class="photo-gallery">
+        <img src="photo1.jpg" alt="Our Photo 1">
+        <img src="photo2.jpg" alt="Our Photo 2">
+        <img src="photo3.jpg" alt="Our Photo 3">
+      </div>
+    </section>
+
+    <!-- Love Notes Section -->
+    <section class="love-notes">
+      <h3>10 Reasons Why I Love You</h3>
+      <ul>
+        <li>You make me laugh every day.</li>
+        <li>Your smile brightens my world.</li>
+        <li>You're my best friend and my soulmate.</li>
+        <li>You inspire me to be a better person.</li>
+        <li>You're always there for me, no matter what.</li>
+        <li>Your kindness and compassion amaze me.</li>
+        <li>You're beautiful inside and out.</li>
+        <li>You make even the ordinary moments special.</li>
+        <li>You're my safe place and my home.</li>
+        <li>I love you more every single day.</li>
+      </ul>
+    </section>
+
+    <!-- Music Player Section -->
+    <section class="music-player">
+      <h2>Our Song</h2>
+      <iframe src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </section>
+
+    <!-- Surprise Button Section -->
+    <section>
+      <h2>I Have a Surprise for You!</h2>
+      <button class="surprise-button" onclick="showSurprise()">Click Here</button>
+      <p id="surprise" style="display: none;">💖 I love you more than words can say. Let's celebrate tonight! 💖</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by [Your Name]</p>
+  </footer>
+
+  <script>
+    function showSurprise() {
+      document.getElementById('surprise').style.display = 'block';
+      alert("You're the best thing that ever happened to me!");
+    }
+  </script>
+</body>
+</html>
